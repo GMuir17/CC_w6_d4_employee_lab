@@ -12,7 +12,7 @@ public class ManagerTest {
 
     @Before
     public void setUp() {
-        manager = new Manager("Ed", "GN10983", 1000.00, "Development");
+        manager = new Manager("Ed", "GN1098D", 1000.00, "Development");
     }
 
     @Test
@@ -20,6 +20,9 @@ public class ManagerTest {
         assertEquals("Ed", manager.getName());
     }
 
-
+    @Test
+    public void hasNumber() {
+        assertEquals("GN1098D", manager.getNumber());
+    }
 
 }
