@@ -58,4 +58,16 @@ public class DirectorTest {
         assertEquals(1000.00, director.getSalary(), 0.01);
     }
 
+    @Test
+    public void canChangeName() {
+        director.changeName("Gary");
+        assertEquals("Gary", director.getName());
+    }
+
+    @Test
+    public void cannotMakeNameNull() {
+        director.changeName(null);
+        assertEquals("Ed", director.getName());
+    }
+
 }
