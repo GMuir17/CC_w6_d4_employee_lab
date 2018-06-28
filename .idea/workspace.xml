@@ -137,6 +137,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>manager</find>
+      <find>admin</find>
+      <find>DatabaseAdmin</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -567,7 +574,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseAdminTest">
+  <component name="RunManager" selected="JUnit.DeveloperTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -583,6 +590,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="TechStaffTest" />
       <option name="MAIN_CLASS_NAME" value="TechStaffTest.DatabaseAdminTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TechStaffTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TechStaffTest" />
+      <option name="MAIN_CLASS_NAME" value="TechStaffTest.DeveloperTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -663,29 +693,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ManagerTest.hasSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EmployeeLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ManagerTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ManagerTest" />
-      <option name="MAIN_CLASS_NAME" value="ManagerTest.ManagerTest" />
-      <option name="METHOD_NAME" value="hasSalary" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -725,19 +732,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ManagerTest.hasSalary" />
       <item itemvalue="JUnit.ManagerTest.hasDeptName" />
       <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
       <item itemvalue="JUnit.ManagerTest.canPayBonus" />
       <item itemvalue="JUnit.DatabaseAdminTest" />
+      <item itemvalue="JUnit.DeveloperTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeveloperTest" />
         <item itemvalue="JUnit.DatabaseAdminTest" />
         <item itemvalue="JUnit.ManagerTest.canPayBonus" />
         <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
         <item itemvalue="JUnit.ManagerTest.hasDeptName" />
-        <item itemvalue="JUnit.ManagerTest.hasSalary" />
       </list>
     </recent_temporary>
   </component>
